@@ -18,3 +18,12 @@ git configÃüÁîµÄ--global²ÎÊý£¬ÓÃÁËÕâ¸ö²ÎÊý£¬±íÊ¾ÄãÕâÌ¨»úÆ÷ÉÏËùÓÐµÄGit²Ö¿â¶¼»áÊ¹Ó
 
 git diff ÃüÁîÓÃÀ´²é¿´Í¬Ò»¸öÎÄ¼þÇ°ºóÁ½´ÎÐÞ¸ÄµÄÇø±ð
 	Àý£º$ git diff readme.txt
+
+git diff    #ÊÇ¹¤×÷Çø(work dict)ºÍÔÝ´æÇø(stage)µÄ±È½Ï
+git diff --cached    #ÊÇÔÝ´æÇø(stage)ºÍ·ÖÖ§(master)µÄ±È½Ï
+git diff HEAD  #²é¿´¹¤×÷ÇøºÍ°æ±¾¿âÀïÃæ×îÐÂ°æ±¾µÄÇø±ð
+
+
+git logÃüÁîÏÔÊ¾´Ó×î½üµ½×îÔ¶µÄÌá½»ÈÕÖ¾¡£Èç¹ûÏÓÊä³öÐÅÏ¢Ì«¶à£¬¿´µÃÑÛ»¨çÔÂÒµÄ£¬¿ÉÒÔÊÔÊÔ¼ÓÉÏ--pretty=oneline²ÎÊý
+
+ÓÃgit resetÃüÁî½øÐÐ°æ±¾»ØÍË¡£ÔÚGitÖÐ£¬ÓÃHEAD±íÊ¾µ±Ç°°æ±¾£¬ÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^£¬ÉÏÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^^£¬µ±È»ÍùÉÏ100¸ö°æ±¾Ð´100¸ö^±È½ÏÈÝÒ×Êý²»¹ýÀ´£¬ËùÒÔÐ´³ÉHEAD~100¡£
